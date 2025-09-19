@@ -7,7 +7,7 @@ function task1() {
         if (arrNum[i] < min) [min, minIdx] = [arrNum[i], i]
         if (arrNum[i] > max) [max, maxIdx] = [arrNum[i], i]
     }
-    console.log(num.slice(minIdx+1, maxIdx+1))
+    alert(num.slice(minIdx+1, maxIdx+1))
 }
 
 function task2() {
